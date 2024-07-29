@@ -10,7 +10,7 @@ const userRoutes = require('./routes/user');
 const app = express();
 app.use(cors());
 app.use(cors({
-    origin: 'http://localhost:3000', // React app's origin
+    origin: 'https://appointmenttech0.web.app', // React app's origin
     credentials: true, // If you need to send cookies with the requests
   }));
   
